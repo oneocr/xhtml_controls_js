@@ -1,4 +1,4 @@
-package xyz.jphil.win11_oneocr.xhtml_controls_js;
+package oneocr.xhtml_controls_js;
 
 import org.teavm.jso.JSBody;
 //import org.teavm.jso.dom.html.*;
@@ -17,13 +17,13 @@ import org.teavm.jso.dom.html.HTMLInputElement;
 
 // Static imports for utility methods - organized in utilities sub-package
 import org.teavm.jso.dom.xml.NodeList;
-import static xyz.jphil.win11_oneocr.xhtml_controls_js.utilities.DomUtilities.*;
-import static xyz.jphil.win11_oneocr.xhtml_controls_js.utilities.OCRDataFactory.*;
-import static xyz.jphil.win11_oneocr.xhtml_controls_js.utilities.SvgUtilities.*;
-import xyz.jphil.win11_oneocr.xhtml_controls_js.utilities.UIElementFactory;
-import static xyz.jphil.win11_oneocr.xhtml_controls_js.utilities.UIElementFactory.*;
-import static xyz.jphil.win11_oneocr.xhtml_controls_js.utilities.NotificationUtilities.*;
-import static xyz.jphil.win11_oneocr.xhtml_controls_js.utilities.TextUtilities.*;
+import static oneocr.xhtml_controls_js.utilities.DomUtilities.*;
+import static oneocr.xhtml_controls_js.utilities.OCRDataFactory.*;
+import static oneocr.xhtml_controls_js.utilities.SvgUtilities.*;
+import oneocr.xhtml_controls_js.utilities.UIElementFactory;
+import static oneocr.xhtml_controls_js.utilities.UIElementFactory.*;
+import static oneocr.xhtml_controls_js.utilities.NotificationUtilities.*;
+import static oneocr.xhtml_controls_js.utilities.TextUtilities.*;
 
 
 /**

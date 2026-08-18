@@ -1,4 +1,4 @@
-package xyz.jphil.win11_oneocr.xhtml_controls_js;
+package oneocr.xhtml_controls_js;
 
 import org.teavm.jso.dom.html.HTMLDocument;
 import org.teavm.jso.dom.html.HTMLElement;
@@ -7,8 +7,8 @@ import org.teavm.jso.browser.Window;
 import java.util.List;
 import java.util.Optional;
 
-import static xyz.jphil.win11_oneocr.xhtml_controls_js.utilities.DomUtilities.*;
-import static xyz.jphil.win11_oneocr.xhtml_controls_js.utilities.AttributeParser.*;
+import static oneocr.xhtml_controls_js.utilities.DomUtilities.*;
+import static oneocr.xhtml_controls_js.utilities.AttributeParser.*;
 
 /**
  * Manages multiple OCR pages in a document.

@@ -1,4 +1,4 @@
-package xyz.jphil.win11_oneocr.xhtml_controls_js;
+package oneocr.xhtml_controls_js;
 // OCR Data Model using records
 public record BoundingBox(
     double x1, double y1, double x2, double y2,

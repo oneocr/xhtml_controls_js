@@ -1,4 +1,4 @@
-package xyz.jphil.win11_oneocr.xhtml_controls_js;
+package oneocr.xhtml_controls_js;
 
 // State management using records
 public record ViewerState(

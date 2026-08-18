@@ -16,7 +16,7 @@ This Maven project produces `XHtmlOcrControls.js` - the interactive JavaScript t
 - **Input**: Java source code with TeaVM annotations
 - **Build Tool**: Maven with TeaVM plugin
 - **Output**: `target/generated/js/XHtmlOcrControls.js`
-- **Deployment Target**: GitHub Pages CDN at `https://xyz-jphil.github.io/win11_oneocr_semantic_xhtml/`
+- **Deployment Target**: GitHub Pages CDN at `https://oneocr.github.io/semantic_xhtml/`
 
 ## Build Requirements
 
@@ -69,10 +69,10 @@ The generated JavaScript is served via GitHub Pages CDN and dynamically loaded b
 
 ## Related Projects
 
-- **Web Repository**: [win11_oneocr_semantic_xhtml](https://github.com/xyz-jphil/win11_oneocr_semantic_xhtml) - GitHub Pages hosting for generated JavaScript
-- **Document Generator**: [xyz-jphil-win11_oneocr-tools](https://github.com/xyz-jphil/xyz-jphil-win11_oneocr-tools) - Creates XHTML documents
-- **Core API**: [xyz-jphil-win11_oneocr-api](https://github.com/xyz-jphil/xyz-jphil-win11_oneocr-api) - Java FFM bindings for Windows OCR
+- **Web Repository**: [semantic_xhtml](https://github.com/oneocr/semantic_xhtml) - GitHub Pages hosting for generated JavaScript
+- **Document Generator**: [oneocr-cli](https://github.com/oneocr/cli) - Creates XHTML documents
+- **Core API**: [oneocr-api](https://github.com/oneocr/api) - Java FFM bindings for Windows OCR
 
 ---
 
-*Part of the xyz-jphil Win11 OneOCR project - leveraging Windows 11's built-in OCR for Java applications.*
+*Part of the OneOCR project (https://github.com/oneocr) - leveraging Windows 11 built-in OCR for Java applications.*

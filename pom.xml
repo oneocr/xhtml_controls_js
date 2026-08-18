@@ -4,9 +4,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>io.github.xyz-jphil</groupId>
-    <artifactId>xyz-jphil-win11_oneocr-xhtml_controls_js</artifactId>
-    <version>1.0</version>
+    <groupId>io.github.oneocr</groupId>
+    <artifactId>oneocr-xhtml_controls_js</artifactId>
+    <version>2.0</version>
     <!-- <packaging>jar</packaging> JAR generation commented out - only need JS output -->
 
     <properties>
@@ -23,7 +23,7 @@
         <maven-compiler-plugin.version>3.12.1</maven-compiler-plugin.version>
         
         <!-- Build properties -->
-        <main.package>xyz.jphil.win11_oneocr.xhtml_controls_js</main.package>
+        <main.package>oneocr.xhtml_controls_js</main.package>
         <main.className>XHtmlOcrControls</main.className>
         <main.class>${main.package}.${main.className}</main.class>
         <output_js>${main.className}.js</output_js>
@@ -176,8 +176,8 @@
                         </goals>
                         <configuration>
                             <target>
-                                <echo message="Copying all TeaVM generated files to win11_oneocr_semantic_xhtml directory..."/>
-                                <copy todir="${project.basedir}/../win11_oneocr_semantic_xhtml" overwrite="true">
+                                <echo message="Copying all TeaVM generated files to semantic_xhtml directory..."/>
+                                <copy todir="${project.basedir}/../semantic_xhtml" overwrite="true">
                                     <fileset dir="${project.build.directory}/generated/js"/>
                                 </copy>
                                 <echo message="Copy completed: All files from target/generated/js"/>

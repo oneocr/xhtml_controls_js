@@ -1,4 +1,4 @@
-package xyz.jphil.win11_oneocr.xhtml_controls_js;
+package oneocr.xhtml_controls_js;
 
 import java.util.List;
 import java.util.Optional;
