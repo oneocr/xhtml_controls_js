@@ -1,6 +1,18 @@
-# Win11 OneOCR XHTML Controls JavaScript Generator
+<p align="center">
+  <a href="https://oneocr.github.io/"><img src="https://oneocr.github.io/assets/mark.svg" width="76" height="76" alt="oneocr"></a>
+</p>
 
-This project generates the interactive JavaScript controls for Win11 OneOCR Semantic XHTML5 documents. It uses TeaVM to transpile Java code to JavaScript, maintaining our pure Java development approach.
+<h1 align="center">oneocr-xhtml_controls_js</h1>
+
+<p align="center">The viewer controls for the semantic XHTML output, written in Java and compiled to JavaScript by TeaVM.</p>
+
+<p align="center">
+  <a href="https://oneocr.github.io/">Website</a> ·
+  <a href="https://github.com/oneocr">All repositories</a> ·
+  <a href="https://oneocr.github.io/demo/sample-page.oneocr.xhtml">Live output</a>
+</p>
+
+---
 
 ## Overview
 
